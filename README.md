@@ -15,7 +15,7 @@ If 8 players decide to play, 5 of which enter for 50$ and 3 enter for 200$. All 
 - The `buy_ins` variable needs to be updated to include Player names or Player/Team IDs with their associated buy-in. It currently consists of dummy values.
 - Current dummy calculations are done by setting the `numpy.seed()` and shuffling the buy_in dataframe to create an artificial rank inside `src.config.add_ranking`. This needs to be updated when the new FPL season gets under way.
 
-#### Example 1
+#### Example 1 (seed = 42)
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -113,7 +113,7 @@ If 8 players decide to play, 5 of which enter for 50$ and 3 enter for 200$. All 
   </tbody>
 </table>
 
-#### Example 2
+#### Example 2 (seed = 36)
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -211,7 +211,7 @@ If 8 players decide to play, 5 of which enter for 50$ and 3 enter for 200$. All 
   </tbody>
 </table>
 
-#### Example 3
+#### Example 3 (seed = 35)
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
