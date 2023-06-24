@@ -4,7 +4,8 @@ This project helps to calculate FPL (or any similarly structured) competitions' 
 A dynamic buy-in structure means each player plays for the total part of the prize pool that is covered by their buy-in. 
 
 #### Example 0
-If 8 players decide to play, 5 of which enter for 50$ and 3 enter for 200$. All 8 players will play for a 8*50$=400$ price pool, but the 3 players that entered for more will play for an additional 3*150$=450$ prize pool.
+If 8 players decide to play, 5 of which enter for 50$ and 3 enter for 200$. 
+All 8 players will play for a `8*50$=400$` price pool, but the 3 players that entered for more will play for an additional `3*150$=450$` prize pool.
 
 #### Important things to note:
 - Each player plays for the total part of the prize pool that is covered by their buy-in. 
