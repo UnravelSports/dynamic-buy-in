@@ -5,5 +5,5 @@ pd.set_option('display.width', 1000)
 pd.options.mode.chained_assignment = None  # default='warn'
 
 import numpy as np
-seed = 35
+seed = 36
 np.random.seed(seed)

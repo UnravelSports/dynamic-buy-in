@@ -114,7 +114,7 @@ All 8 players will play for a `8*50$=400$` price pool, but the 3 players that en
   </tbody>
 </table>
 
-#### Example 2 (seed = 36)
+#### Example 2 (seed = 35)
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -212,7 +212,7 @@ All 8 players will play for a `8*50$=400$` price pool, but the 3 players that en
   </tbody>
 </table>
 
-#### Example 3 (seed = 35)
+#### Example 3 (seed = 36)
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -229,26 +229,56 @@ All 8 players will play for a `8*50$=400$` price pool, but the 3 players that en
   <tbody>
     <tr>
       <td>1</td>
-      <td>Player C</td>
-      <td>50.0</td>
+      <td>Player E</td>
+      <td>75.0</td>
       <td>280.0</td>
+      <td>87.5</td>
       <td>0.0</td>
       <td>0.0</td>
-      <td>0.0</td>
-      <td>280.0</td>
+      <td>367.5</td>
     </tr>
     <tr>
       <td>2</td>
-      <td>Player F</td>
-      <td>100.0</td>
+      <td>Player H</td>
+      <td>200.0</td>
       <td>120.0</td>
-      <td>87.5</td>
+      <td>37.5</td>
       <td>75.0</td>
-      <td>0.0</td>
-      <td>282.5</td>
+      <td>200.0</td>
+      <td>432.5</td>
     </tr>
     <tr>
       <td>3</td>
+      <td>Player D</td>
+      <td>75.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Player G</td>
+      <td>200.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Player B</td>
+      <td>50.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>6</td>
       <td>Player A</td>
       <td>50.0</td>
       <td>0.0</td>
@@ -258,39 +288,9 @@ All 8 players will play for a `8*50$=400$` price pool, but the 3 players that en
       <td>0.0</td>
     </tr>
     <tr>
-      <td>4</td>
-      <td>Player D</td>
-      <td>75.0</td>
-      <td>0.0</td>
-      <td>37.5</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>37.5</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Player G</td>
-      <td>200.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>200.0</td>
-      <td>200.0</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>Player H</td>
-      <td>200.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
       <td>7</td>
-      <td>Player E</td>
-      <td>75.0</td>
+      <td>Player C</td>
+      <td>50.0</td>
       <td>0.0</td>
       <td>0.0</td>
       <td>0.0</td>
@@ -299,8 +299,8 @@ All 8 players will play for a `8*50$=400$` price pool, but the 3 players that en
     </tr>
     <tr>
       <td>8</td>
-      <td>Player B</td>
-      <td>50.0</td>
+      <td>Player F</td>
+      <td>100.0</td>
       <td>0.0</td>
       <td>0.0</td>
       <td>0.0</td>
@@ -309,6 +309,8 @@ All 8 players will play for a `8*50$=400$` price pool, but the 3 players that en
     </tr>
   </tbody>
 </table>
+
+
 
 #### Installation
 `pip install -r requirements.txt`

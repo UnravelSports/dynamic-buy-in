@@ -19,7 +19,7 @@ if __name__ == '__main__':
     standings = add_ranking(df)
 
     final = compute_payouts(standings=standings)
-
+    print(final.to_html(index=False))
 
 
 
